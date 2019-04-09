@@ -219,7 +219,7 @@ $(function() {
   // --------------------------------------------- //
   $('.notify-form').ajaxChimp({
     callback: mailchimpCallback,
-    url: 'http://besaba.us10.list-manage.com/subscribe/post?u=e8d650c0df90e716c22ae4778&amp;id=6c8d32a3aa'
+    url: 'https://vertiquedesign.us13.list-manage.com/subscribe/post?u=b588402f53b85352e99c45687&amp;id=8165dd2329'
   });
 
   function mailchimpCallback(resp) {
