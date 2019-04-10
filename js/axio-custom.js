@@ -254,7 +254,7 @@ $(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "mail/mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
       $('.stayintouch').find('.form').addClass('is-hidden');
@@ -275,11 +275,12 @@ $(function() {
   // --------------------------------------------- //
   // Contact Form Start
   // --------------------------------------------- //
+/*
   $("#contact-form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "mail/mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
       $('.contact').find('.form').addClass('is-hidden');
@@ -293,6 +294,7 @@ $(function() {
 		});
 		return false;
 	});
+*/
   // --------------------------------------------- //
   // Contact Form End
   // --------------------------------------------- //

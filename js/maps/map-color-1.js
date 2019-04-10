@@ -1,7 +1,7 @@
 // --------------------------------------------- //
 // Google Map Hazelnut/Flame Start
 // --------------------------------------------- //
-$(function() {
+/*$(function() {
   // Insert Your Google Maps Parameters
   var latitude = 40.761425,
     longitude = -73.977643,
@@ -288,7 +288,7 @@ $(function() {
 
         map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(zoomControlDiv);
 
-});
+});*/
 // --------------------------------------------- //
 // Google Map Hazelnut/Flame End
 // --------------------------------------------- //
